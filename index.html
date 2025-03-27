@@ -14,31 +14,31 @@
 
         <nav class="nav-mobile">
             <div class="navbar-brand">
-                <img src="images/me.jpg" alt="logo" class="brand-img">
+                <img src="images/me.jpg" style="border-radius: 50%;" alt="logo" class="brand-img">
                 <h1 class="brand-name">Ali Aliyev</h1>
             </div>
-
-            <ion-icon name="menu-outline" class="menu-toggler"></ion-icon>
+            <i class="fa-solid fa-bars menu-toggler"></i>
+            <!-- <ion-icon name="menu-outline" class="menu-toggler"></ion-icon> -->
         </nav>
 
         <div class="side-bar">
-            <img src="images/me.jpg" alt="logo" class="brand-img">
+            <img src="images/me.jpg" style="border-radius: 50%;" alt="logo" class="brand-img">
             <h1 class="brand-name">Ali <br> Aliyev</h1>
 
             <nav>
                 <ul class="nav">
                     <li><a href="#" class="active">About</a></li>
                     <li><a href="#">Resume</a></li>
-                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#">Portfolio</a></li>
                     <!-- <li><a href="#">Blog</a></li> -->
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
 
             <div class="social-btn-groups">
-                <a href="https://www.linkedin.com/in/ali-aliyev-61308b252/" class="btn"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="https://www.instagram.com/aliesso_" class="btn"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="https://wa.me/0553398565" class="btn"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/ali-aliyev-61308b252/" class="btn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/aliesso_" class="btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/0553398565" class="btn"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
 
             <div class="side-bar-footer">
@@ -80,7 +80,7 @@
                     <div class="grid-item">
                         <div class="item">
                             <div class="item-icon">
-                                <ion-icon name="storefront-outline"></ion-icon>
+                                <i class="fa-solid fa-store"></i>
                             </div>
 
                             <div class="item-wrapper">
@@ -94,7 +94,7 @@
 
                         <div class="item">
                             <div class="item-icon">
-                                <ion-icon name="reader-outline"></ion-icon>
+                                <i class="fa-solid fa-book-open-reader"></i>
                             </div>
 
                             <div class="item-wrapper">
@@ -108,7 +108,7 @@
 
                         <div class="item">
                             <div class="item-icon">
-                                <ion-icon name="desktop-outline"></ion-icon>
+                                <i class="fa-solid fa-desktop"></i>
                             </div>
 
                             <div class="item-wrapper">
@@ -124,7 +124,7 @@
 
                         <div class="item">
                             <div class="item-icon">
-                                <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                                <i class="fa-solid fa-list-check"></i>
                             </div>
 
                             <div class="item-wrapper">
@@ -157,7 +157,7 @@
 
         <section class="resume page">
             <h1 class="section-heading">Resume</h1>
-            <h4 class="section-sub-heading">4 Years of Experience</h4>
+            <h4 class="section-sub-heading">3 Years of Experience</h4>
 
             <div class="resume-row">
                 <div class="wrapper">
@@ -187,6 +187,15 @@
                     <div class="experience">
                         <h2>Experience</h2>
                         <div class="grid-item">
+                            <h4 class="year">2018 - 2020</h4>
+                            <h4 class="experience-name"> Eres Baku</h4>
+                            <p class="company">Work</p>
+                            <p class="experience-description">Model
+                            </p>
+
+                            <div class="divider"></div>
+                        </div>
+                        <div class="grid-item">
                             <h4 class="year">2021 - Current</h4>
                             <h4 class="experience-name"> BestComp Group</h4>
                             <p class="company">Work</p>
@@ -195,6 +204,7 @@
 
                             <div class="divider"></div>
                         </div>
+           
                     </div>
                 </div>
 
@@ -243,39 +253,43 @@
             <a href="my_resume/alialiyev_resume.pdf" download="alialiyev_resume.pdf" class="btn-primary">Download CV</a>
         </section>
 
-        <!-- <section class="portfolio page ">
+        <section class="portfolio page ">
             <h1 class="section-heading">Portfolio</h1>
             <h4 class="section-sub-heading">My Works</h4>
 
-            <ul class="filter-box">
+            <!-- <ul class="filter-box">
                 <li class="filter-item active">All</li>
                 <li class="filter-item">Media</li>
                 <li class="filter-item">Mockups</li>
                 <li class="filter-item">SoundCloud</li>
                 <li class="filter-item">Vimeo Videos</li>
                 <li class="filter-item">Youtube Videos</li>
-            </ul>
+            </ul> -->
 
             <div class="portfolio-items-group">
-                <div class="portfolio-item active">
-                    <img src="https://i.postimg.cc/N0mGDRsP/1.jpg" alt="image" class="item-img">
-                    <h4 class="item-name">SoundCloud Audio</h4>
-                    <div class="item-icon">
-                        <ion-icon name="volume-high"></ion-icon>
-                    </div>
-                    <div class="item-category">SoundCloud</div>
-                </div>
+                <a target="_blank" href="https://courts.gov.az/" class="portfolio-item active">
+                    <img src="images/courts.png" alt="image" class="item-img">
+                    <h4 class="item-name">Courts</h4>
+                </a>
+                <a target="_blank" href="https://afadqurbanov.vercel.app/" class="portfolio-item active">
+                    <img src="images/afad.png" alt="image" class="item-img">
+                    <h4 class="item-name">Afad Qurbanov</h4>
+                </a>
+                <a target="_blank" href="https://www.rlinkar.com/" class="portfolio-item active">
+                    <img src="images/r-link.png" alt="image" class="item-img">
+                    <h4 class="item-name">R Link</h4>
+                </a>
+                <a target="_blank" href="https://rayda.az/" class="portfolio-item active">
+                    <img src="images/rayda.png" alt="image" class="item-img">
+                    <h4 class="item-name">Rayda Travel</h4>
+                </a>
+                <a target="_blank" href="https://animators.az/" class="portfolio-item active">
+                    <img src="images/animators.png" alt="image" class="item-img">
+                    <h4 class="item-name">Animators</h4>
+                    <!-- <div class="item-category">Media</div> -->
+                </a>
 
-                <div class="portfolio-item active">
-                    <img src="https://i.postimg.cc/Qxd1NpZ7/2.jpg" alt="image" class="item-img">
-                    <h4 class="item-name">Media Project 1</h4>
-                    <div class="item-icon">
-                        <ion-icon name="film"></ion-icon>
-                    </div>
-                    <div class="item-category">Media</div>
-                </div>
-
-                <div class="portfolio-item active">
+                <!-- <div class="portfolio-item active">
                     <img src="https://i.postimg.cc/CLrDRzwQ/3.jpg" alt="image" class="item-img">
                     <h4 class="item-name">Vimeo Video 1</h4>
                     <div class="item-icon">
@@ -309,9 +323,9 @@
                         <ion-icon name="videocam"></ion-icon>
                     </div>
                     <div class="item-category">Youtube Videos</div>
-                </div>
+                </div> -->
             </div>
-        </section> -->
+        </section>
 
         <!-- <section class="blog page">
             <h1 class="section-heading">Blog</h1>
@@ -389,26 +403,25 @@
 
         <section class="contact page">
             <h1 class="section-heading">Contact</h1>
-            <h4 class="section-sub-heading">Get in Touch</h4>
 
             <div class="contact-info">
                 <div class="info-box">
-                    <ion-icon name="call-outline"></ion-icon>
+                    <i class="fa-solid fa-phone"></i>
                     <p>055-339-85-65</p>
                 </div>
 
                 <div class="info-box">
-                    <ion-icon name="location-outline"></ion-icon>
+                    <i class="fa-solid fa-location-dot"></i>
                     <p>Azerbaijan Baku</p>
                 </div>
 
                 <div class="info-box">
-                    <ion-icon name="mail-outline"></ion-icon>
+                    <i class="fa-solid fa-envelope"></i>
                     <p>aliesso2218@gmail.com</p>
                 </div>
 
                 <div class="info-box">
-                    <ion-icon name="checkmark-outline"></ion-icon>
+                    <i class="fa-solid fa-check"></i>
                     <p>Hire Available</p>
                 </div>
             </div>
@@ -436,8 +449,7 @@
 
 
     <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </body>
 
 </html>

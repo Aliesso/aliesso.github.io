@@ -11,10 +11,21 @@ const itemCategory = document.querySelectorAll('.item-category');
 
 /*Slidebar Toggle*/
 
-menuToggler.addEventListener('click', function () {
+menuToggler.addEventListener('click', function (event) {
     sideBar.classList.toggle('active');
-})
+    event.stopPropagation(); 
+});
 
+
+document.addEventListener('click', function (event) {
+    if (sideBar.classList.contains('active') && !sideBar.contains(event.target) && !menuToggler.contains(event.target)) {
+        sideBar.classList.remove('active');
+    }
+});
+
+sideBar.addEventListener('click', function (event) {
+    event.stopPropagation();
+});
 /* Page Navigation Functionality */
 
 for (let i = 0; i < navItemLinks.length; i++) {
